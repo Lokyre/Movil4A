@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAD8D8"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtlabelA1"
+        android:layout_width="246dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="364dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nombre"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnA1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="313dp"
+        android:text="Enviar"
+        app:layout_constraintStart_toEndOf="@+id/txtlabelA1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#673AB7" />
+
+    <EditText
+        android:id="@+id/txtlablel2A1"
+        android:layout_width="246dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:inputType="datetime"
+        android:hint="Fecha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtlabelA1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
